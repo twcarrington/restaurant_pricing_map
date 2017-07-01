@@ -2,6 +2,10 @@
   "name": "restaurant_pricing_map",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "7.5.0",
+    "npm": "4.1.2"
+  },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
@@ -15,6 +19,7 @@
     "webpack": "^1.9.11"
   },
   "dependencies": {
+    "firebase": "^4.1.3",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
